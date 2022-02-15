@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import '../common_imports.dart';
 
 class MainView extends StatelessWidget {
   const MainView({Key? key}) : super(key: key);
@@ -7,7 +7,7 @@ class MainView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Subscription Controller"),
+        title: Text(AppLocalizations.of(context)!.appTitle),
       ),
       body: const Text("test"),
     );

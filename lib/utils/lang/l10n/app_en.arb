@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "appName": "SC",
+  "@appName": {
+    "description": "App's Name"
+  },
+  "appTitle": "Subscription Controller",
+  "@appTitle": {
+    "description": "App's Title"
+  }
+}
